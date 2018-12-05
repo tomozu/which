@@ -3,7 +3,7 @@
 # ファッション系SNSアプリ
 
 ## 概要
-ファッションコーディネートで、二択で選べない方のためのお助けアプリケーションです
+ファッションコーディネートで二択で選べない方のためのお助けアプリケーションです
 
 ## コンセプト
 ファッションコーディネートをするためのSNSアプリ
@@ -29,9 +29,9 @@ ruby 2.4.0 rails 5.1.1
    - [ ] 編集、削除は投稿者のみ実行可能
 
 ## カタログ設計
-
+https://docs.google.com/spreadsheets/d/1w4aBXVf0n45EgU6ZvYUuXAenmQGGhC8PvYciwLxYJlw/edit?usp=sharing
 ## テーブル定義
-
+https://docs.google.com/spreadsheets/d/1w4aBXVf0n45EgU6ZvYUuXAenmQGGhC8PvYciwLxYJlw/edit?usp=sharing
 ## 画面遷移図
 
 ## 画面ワイヤーフレーム
