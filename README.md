@@ -35,11 +35,13 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4R
 ## テーブル定義
 https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4RJ2cLRj_Te7rxKePonAL5apWEWbjPl0GWp9daHC_IHfK0oVY/pubhtml?gid=652884054&single=true
 
-## 画面遷移図
 https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4RJ2cLRj_Te7rxKePonAL5apWEWbjPl0GWp9daHC_IHfK0oVY/pubhtml?gid=408352039&single=true
 
-## 画面ワイヤーフレーム
+## 画面遷移図
 https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4RJ2cLRj_Te7rxKePonAL5apWEWbjPl0GWp9daHC_IHfK0oVY/pubhtml?gid=965846329&single=true
+
+## 画面ワイヤーフレーム
+https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4RJ2cLRj_Te7rxKePonAL5apWEWbjPl0GWp9daHC_IHfK0oVY/pubhtml?gid=1087955723&single=true
 
 ## 使用予定Gem
 * devise
