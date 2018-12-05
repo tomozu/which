@@ -29,9 +29,10 @@ ruby 2.4.0 rails 5.1.1
    - [ ] 編集、削除は投稿者のみ実行可能
 
 ## カタログ設計
-https://docs.google.com/spreadsheets/d/1w4aBXVf0n45EgU6ZvYUuXAenmQGGhC8PvYciwLxYJlw/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1w4aBXVf0n45EgU6ZvYUuXAenmQGGhC8PvYciwLxYJlw/edit"Sheert1!A1:I42"
+
 ## テーブル定義
-https://docs.google.com/spreadsheets/d/1w4aBXVf0n45EgU6ZvYUuXAenmQGGhC8PvYciwLxYJlw/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1w4aBXVf0n45EgU6ZvYUuXAenmQGGhC8PvYciwLxYJlw/edit
 ## 画面遷移図
 
 ## 画面ワイヤーフレーム
