@@ -29,7 +29,7 @@ ruby 2.4.0 rails 5.1.1
    - [ ] 編集、削除は投稿者のみ実行可能
 
 ## カタログ設計
-https://docs.google.com/spreadsheets/d/1w4aBXVf0n45EgU6ZvYUuXAenmQGGhC8PvYciwLxYJlw/edit"Sheert1!A1:I42"
+https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4RJ2cLRj_Te7rxKePonAL5apWEWbjPl0GWp9daHC_IHfK0oVY/pubhtml?gid=0&single=true
 
 ## テーブル定義
 https://docs.google.com/spreadsheets/d/1w4aBXVf0n45EgU6ZvYUuXAenmQGGhC8PvYciwLxYJlw/edit
