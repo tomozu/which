@@ -44,6 +44,6 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4R
 https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4RJ2cLRj_Te7rxKePonAL5apWEWbjPl0GWp9daHC_IHfK0oVY/pubhtml?gid=1087955723&single=true
 
 ## 使用予定Gem
-* devise
-* Ajax
 * Kaminari
+
+## 他、devise、Ajax使用
