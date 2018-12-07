@@ -46,4 +46,5 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4R
 ## 使用予定Gem
 * Kaminari
 
-## 他、devise、Ajax使用
+## 他
+devise、Ajax使用
