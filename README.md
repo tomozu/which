@@ -47,4 +47,4 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4R
 * Kaminari
 
 ## 他
-devise、Ajax使用
+devise、 Ajax 使用予定
