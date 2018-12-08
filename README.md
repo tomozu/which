@@ -45,6 +45,8 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4R
 
 ## 使用予定Gem
 * Kaminari
+* CarrierWave
+* mini_magick
 
 ## 他
 devise、 Ajax 使用予定
