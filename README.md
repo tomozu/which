@@ -48,6 +48,9 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4R
 * CarrierWave
 * mini_magick
 * bcrypt
+* pry-rails
+* better_errors
+* binding_of_caller
 
 ## 他
 devise、 Ajax 使用予定
