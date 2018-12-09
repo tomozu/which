@@ -47,6 +47,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vTxjp0oZCBtupLIIuqNzp7SCQGUpmc4R
 * Kaminari
 * CarrierWave
 * mini_magick
+* bcrypt
 
 ## 他
 devise、 Ajax 使用予定
