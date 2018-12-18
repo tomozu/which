@@ -1,0 +1,51 @@
+<div class="index">
+<h2>投稿一覧画面(index)</h2>
+
+<p><%= notice %></p>
+ 
+<% @posts.each do |post| %>
+ <ul class="details">
+  <li>目的：<%= post.objective %></li>
+  <li>内容：<%= post.place %></li>
+  <li>理想：<%= post.ideal %></li>
+ </ul>
+
+ <ul class="image">
+ <div class="like_a">
+   <li><%= image_tag post.image_a %>
+     <% if Like.find_by(user_id: @current_user.id, post_id: post.id) %>
+       <%= link_to("/posts/:post_id/likes/:id", {method: "post"}) do %>
+       <span class="fa fa-heart like-btn-unlike"></span>
+     <% end %>
+     <% else %>
+       <%= link_to("/posts/:post_id/likes", {method: "post"}) do %>
+       <span class="fa fa-heart like-btn-like"></span>
+       <% end %>
+     <% end %>
+   <%= @likes_count %>
+ </div>
+ <div class="like_b">
+   <%= image_tag post.image_b %></li>
+     <% if Like.find_by(user_id: @current_user.id, post_id: post.id) %>
+       <%= link_to("/posts/:post_id/likes/:id", {method: "post"}) do %>
+       <span class="fa fa-heart like-btn-unlike"></span>
+     <% end %>
+     <% else %>
+       <%= link_to("/posts/:post_id/likes", {method: "post"}) do %>
+       <span class="fa fa-heart like-btn-like"></span>
+       <% end %>
+     <% end %>
+   <%= @likes_count %>
+ </div>
+   </li>
+ </ul>
+ <ul class="menu">
+   <% if post.user_id == @current_user.id %>
+   <li><%= link_to '詳細画面へ', post_path(post.id) %></li>
+   <li><%= link_to '投稿を編集する', edit_post_path(post.id), data: { confirm: '本当に編集していいですか？' } %></li>
+   <li><%= link_to '投稿を削除する', post_path(post.id), method: :delete, data: { confirm: '本当に削除していいですか？' } %></li>
+   <!--<li><!%= link_to '新規投稿する', new_post_path %></li><br>-->
+   <% end %>
+</ul>
+<% end %>
+</div>

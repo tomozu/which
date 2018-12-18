@@ -1,0 +1,26 @@
+<h3>以下の内容で送信する</h3>
+<div class="form_post">
+<%= form_with(model: @post, url:posts_path, local: true) do |form| %>
+ <%= form.hidden_field :objective %>
+ <%= form.hidden_field :place %>
+ <%= form.hidden_field :ideal %>
+ 
+ <p>目的:<%= @post.objective %></p>
+ <p>場所:<%= @post.place %></p>
+ <p>理想:<%= @post.ideal %></p>
+ <%= image_tag(@post.image_a.url) %>
+ <%= form.hidden_field :image_a_cache %>
+ <%= image_tag(@post.image_b.url) %>
+ <%= form.hidden_field :image_b_cache %>
+ <%= form.submit "投稿する" %>
+<% end %>
+
+<%= form_with(model: @post, url:new_post_path, local: true , method: 'get') do |form| %>
+ <%= form.hidden_field :objective %>
+ <%= form.hidden_field :place %>
+ <%= form.hidden_field :ideal %>
+ <%= form.hidden_field :image_a_cache %>
+ <%= form.hidden_field :image_b_cache %>
+ <%= form.submit "戻る", name: 'back' %>
+<% end %>
+</div>

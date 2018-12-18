@@ -1,0 +1,7 @@
+<h1>Post詳細画面</h1>
+<p>目的:<%= @post.objective %></p>
+<p>場所:<%= @post.place %></p>
+<p>理想:<%= @post.ideal %></p>
+<p><%= image_tag @post.image_a.url %><%= image_tag @post.image_b.url %></p>
+
+<%= link_to 'Back', posts_path %>

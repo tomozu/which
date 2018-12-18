@@ -1,0 +1,42 @@
+<%= form_with(model: @post, local: true ,url: choose_new_or_edit ) do |form| %>
+ <% if @post.errors.any? %>
+  <div id="error_explanation">
+   <h2><%= @post.errors.count %>件のエラーがあります。</h2>
+   <ul>
+       
+   <% @post.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+   <% end %>
+   </ul>
+  </div>
+ <% end %>
+  
+  <div class="post_objective">
+   <p><% form.label :objective %>目的
+      <%= form.text_field :objective %>
+   </p>
+  </div>
+  <div class="post_objective">
+    <p><% form.label :place %>場所
+       <%= form.text_field :place %>
+    </p>
+  </div>
+  <div class="post_objective">
+    <p><% form.label :ideal %>理想
+       <%= form.text_field :ideal %>
+    </p>
+  </div>
+  <div class="field">
+   <p><% form.label :image_a %>画像A</p> 
+   　　<%= image_tag(@post.image_a.url)if @post.image_a.present? %>
+   　　<%= form.file_field :image_a %>
+   　　<%= form.hidden_field :image_a_cache %>
+   <p><% form.label :image_b %>画像B</p>
+   <%= image_tag(@post.image_b.url)if @post.image_b.present? %>
+   <%= form.file_field :image_b %>
+   <%= form.hidden_field :image_b_cache %>
+  </div>
+  <div class='actions'>
+   <%= form.submit %>
+  </div>
+<% end %>

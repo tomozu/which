@@ -1,0 +1,35 @@
+header {
+ width: 100%;
+ background-color: white;
+ 
+}
+
+header ul {
+ margin: 0 auto;
+ list-style: none;
+}
+
+header ul a {
+ display: inline-block;
+ padding: 15px;
+ text-decoration: none;
+ color: black;
+}
+
+header li {
+ float: left;
+ width: auto;
+}
+
+footer {
+ color: #ffffff;
+ background-color: #767671;
+ width: 100%;
+ padding: 20px 0 10px 0;
+ color: white;
+ margin: auto;
+ padding-bottom: 10px;
+ position: fixed;
+ bottom: 0;
+ text-align: center;
+}

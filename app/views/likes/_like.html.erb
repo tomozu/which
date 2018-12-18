@@ -1,0 +1,8 @@
+<ul class="user_likes">
+  <li><%= link_to("投稿", "/users/#{@user.id}") %></li>
+  <li class="active"><%= link_to("投票!", "/users/#{@user.id}/likes") %></li>
+</ul>
+
+<% @likes.each do |like| %>
+  <% post = Post.find_by(id: like.post_id) %>
+<% end %>

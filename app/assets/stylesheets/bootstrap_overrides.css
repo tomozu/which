@@ -1,0 +1,14 @@
+.image_area {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+/*.top_image_area {*/
+/*  float: right;*/
+/*  width: 20%*/
+/*}*/
+
+.navbar-default {
+    width: 100%
+}

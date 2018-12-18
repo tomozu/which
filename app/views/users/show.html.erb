@@ -1,0 +1,11 @@
+<h1><%= @user.nickname %>さんのページ</h1>
+
+ <p>ニックネーム：<%= @user.nickname %>さん</p>
+
+ <p>メールアドレス：<%= @user.email %></p>
+
+ <p>性別：<%= @user.gender %></p>
+
+ <p>年齢：<%= @user.age %>歳</p>
+
+ <p>プロフィール写真：<%= image_tag(@user.image.url) if @user.image.url %></p>

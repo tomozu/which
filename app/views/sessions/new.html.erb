@@ -1,0 +1,10 @@
+<section class="login">
+  <h2>Login</h2>
+    <%= form_with(scope: :session, url: sessions_path, local: true) do |f| %>
+      <p>メールアドレス 
+      <br><% f.label :email %><%= f.email_field :email %></p>
+      <p>パスワード (6文字以上)
+      <br><% f.label :password %><%= f.password_field :password %></p>
+      <p><%= f.submit "ログイン" %></p>
+    <% end %>
+</section>
